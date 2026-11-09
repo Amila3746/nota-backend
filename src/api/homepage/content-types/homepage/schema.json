@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroBadge": {
+      "type": "string"
+    },
+    "heroTitle": {
+      "type": "text"
+    },
+    "heroTagline": {
+      "type": "text"
+    },
+    "manifestoSubtitle": {
+      "type": "string"
+    },
+    "manifestoTitle": {
+      "type": "text"
+    },
+    "manifestoDescription": {
+      "type": "text"
+    },
+    "specifications": {
+      "type": "component",
+      "component": "shared.specification-item",
+      "repeatable": true
+    },
+    "whoForItems": {
+      "type": "component",
+      "component": "shared.who-for-item",
+      "repeatable": true
+    }
+  }
+}

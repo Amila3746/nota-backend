@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_who_for_items",
+  "info": {
+    "displayName": "Who For Item"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
